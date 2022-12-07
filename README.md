@@ -2,7 +2,7 @@
 
 Occasionally I have a couple of different classes that expose the same interface and I have to switch between them.  For instance, sometimes I want a user to be able to use multiple file formats to input the same data.  Benny is a general solution for this.
 
-```
+```python
 from abc import ABC, abstractmethod
 from benny import Benny, Actor, SingleKeyActor
 
